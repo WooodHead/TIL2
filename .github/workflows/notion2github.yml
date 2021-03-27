@@ -2,9 +2,14 @@ name: Notion2Github
 on:
   push:
     branches:
-      - 'test/notion2github**'
+      - master
   schedule:
     - cron: '0 14 * * *'
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        default: 'warning'
 
 jobs:
   auto-sync-from-notion-to-github:
