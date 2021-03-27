@@ -17,8 +17,8 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'error',
   favicon: 'img/logo.png',
-  organizationName: 'younho9',
-  projectName: 'til',
+  organizationName: 'wooodhead',
+  projectName: 'til2',
   themeConfig: {
     algolia: {
       apiKey: 'df534cd50449ff1ac456585231e62076',
